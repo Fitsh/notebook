@@ -1,0 +1,72 @@
+防火墙分为firewalld和iptables
+oracle linux7、centos7系统防火墙为firewall
+有的系统防火墙为iptables
+
+
+查询防火墙状态    :    [root@localhost ~]# service iptables status
+停止防火墙   :       [root@localhost ~]# service iptables stop
+启动防火墙   :       [root@localhost ~]# service iptables start
+重启防火墙   :       [root@localhost ~]# service iptables restart
+永久关闭防火墙    :    [root@localhost ~]# chkconfig iptables off
+永久关闭后启用    :    [root@localhost ~]# chkconfig iptables on
+iptables
+一、service方式
+
+查看防火墙状态：
+
+[root@centos6 ~]# service iptables status
+
+iptables：未运行防火墙。
+
+开启防火墙：
+
+[root@centos6 ~]# service iptables start
+
+关闭防火墙：
+
+[root@centos6 ~]# service iptables stop
+
+二、iptables方式
+
+先进入init.d目录，命令如下：
+
+[root@centos6 ~]# cd /etc/init.d/
+
+[root@centos6 init.d]#
+
+然后
+
+查看防火墙状态：
+
+[root@centos6 init.d]# /etc/init.d/iptables status
+
+暂时关闭防火墙：
+
+[root@centos6 init.d]# /etc/init.d/iptables stop
+
+重启iptables：
+
+[root@centos6 init.d]# /etc/init.d/iptables restart
+
+
+Firewall
+光设置好mongodb还不行，还需要设置好centos的防火墙，默认情况下mongodb设置的端口是不对外开放的。一定要注意Linux当前机器使用的防火墙，CentOS 7 默认没有使用iptables，所以通过编辑iptables的配置文件来开启端口是不可以的，按照上面的做法然后远程连接不上八成是这里有问题
+
+如果嫌麻烦可以直接关闭防火墙
+
+
+#CentOS 7 采用了 firewalld 防火墙
+#如要查询是否开启27017端口则：
+[root@localhost ~]# firewall-cmd --query-port=27017/tcp
+no
+如果没有开启则输入
+
+[root@localhost ~]# firewall-cmd --add-port=27017/tcp
+success
+
+
+永久关闭防火墙：systemctl disable firewalld
+开启防火墙：systemctl start firewalld
+关闭防火墙：systemctl stop firewalld
+重启防火墙：systemctl reload firewalld
+查询防火墙状态：systemctl status firewalld
