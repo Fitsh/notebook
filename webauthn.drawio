@@ -1,47 +1,309 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T10:28:11.284Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="O5dUdyFruF0A2H6g-nVw" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T04:20:36.723Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="JRohgy1UDXz-0WiMYH0r" version="14.8.2" type="github">
   <diagram id="6hoWa6Lv_eCr7oknsDba" name="Page-1">
-    <mxGraphModel dx="2061" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="260" width="120" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="270" width="450" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="vvcvrpUPGI63nnQzQDR0-5">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="vvcvrpUPGI63nnQzQDR0-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="379" as="sourcePoint" />
             <mxPoint x="750" y="379" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-4" value="username" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-4" value="username" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="515" y="350" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-5" value="创建用户（随机ID，username, displayname）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-5" value="创建用户（随机ID，username, displayname）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="365" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="425" width="450" height="270" as="geometry" />
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="530" width="450" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-7" value="创建随即字符串，challenge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="455" width="450" height="60" as="geometry" />
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-7" value="创建随即字符串，challenge" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="545" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-9" value="NewWebAuth, 创建依赖方信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-9" value="NewWebAuth, 创建依赖方信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="295" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-10" value="依赖方信息：(" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="515" width="450" height="60" as="geometry" />
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-10" value="依赖方信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="605" width="450" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-11" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.661;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.004;exitY=0.907;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vvcvrpUPGI63nnQzQDR0-6" target="vvcvrpUPGI63nnQzQDR0-1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-11" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.661;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.004;exitY=0.907;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vvcvrpUPGI63nnQzQDR0-6" target="vvcvrpUPGI63nnQzQDR0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="590" as="sourcePoint" />
             <mxPoint x="720" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vvcvrpUPGI63nnQzQDR0-12" value="challenge&lt;br&gt;依赖方信息: id,name, icon&lt;br&gt;用户信息： id, displayname, name, icon&lt;br&gt;算法列表，依赖方接受哪些签名算法，PubKeyCredParams,&lt;br&gt;认证器部分，过滤正确的认证器，&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;authenticatorSelection&lt;br&gt;认证超时时长，timeout,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;attestation, 表示依赖方是否要证明，若需要，签名挑战&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;要排除的凭证，excludeCredentials，&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;可以避免同一个用户多次注册同一个认证器&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;WebAuthn 扩展，可以提供规范之外的配置和响应,extensions&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="vvcvrpUPGI63nnQzQDR0-12" value="challenge&lt;br&gt;依赖方信息: id,name, icon&lt;br&gt;用户信息： id, displayname, name, icon&lt;br&gt;算法列表，依赖方接受哪些签名算法，PubKeyCredParams,&lt;br&gt;认证器部分，过滤正确的认证器，&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;authenticatorSelection&lt;br&gt;认证超时时长，timeout,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;attestation, 表示依赖方是否要证明，若需要，签名挑战&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;要排除的凭证，excludeCredentials，&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;可以避免同一个用户多次注册同一个认证器&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;WebAuthn 扩展，可以提供规范之外的配置和响应,extensions&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="430" y="605" width="620" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1000" width="120" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1010" width="450" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-3" value="" style="endArrow=classic;html=1;entryX=0.002;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tTCZcpSotxaGJvpE1IBw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1119" as="sourcePoint" />
+            <mxPoint x="1030" y="1119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-5" value="根据用户名找出对应用户信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1095" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-8" value="NewWebAuth, 创建依赖方信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1035" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-10" value="" style="endArrow=classic;html=1;entryX=0.992;entryY=0.918;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tTCZcpSotxaGJvpE1IBw-78" target="tTCZcpSotxaGJvpE1IBw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1051.8000000000002" y="1414.8899999999999" as="sourcePoint" />
+            <mxPoint x="720" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-11" value="username,&lt;br&gt;id, base64Url编码的凭证ID&lt;br&gt;rawId, 原始凭证ID&lt;br&gt;type, 一定是&quot;public-key&quot;&lt;br&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;response.clientDataJSON: 客户端数据，包含origin, 挑战等信息。&lt;br&gt;&lt;/span&gt;&lt;code style=&quot;font-size: 1em ; text-align: left ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;response.attestationObject: ArrayBuffer&lt;/code&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left&quot;&gt;：CBOR 编码的认证器数据，&lt;br&gt;包含凭证公钥、凭证 ID、签名（如果有）、签名计数等信息&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;client data json, 包含挑战码，来源（创建凭证页面的源)，&lt;br&gt;类型(一定是&#39;webauth.create)，client_extensions(客户端的扩展数据)&lt;br&gt;has_algorithm(签名算法)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1060" width="610" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-12" value="获取会话信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1155" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-13" value="存储会话信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="425" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-15" value="&lt;span&gt;attestation Object&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1968" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-16" value="&lt;span style=&quot;color: rgb(75 , 75 , 75) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 17px ; background-color: rgb(255 , 255 , 255)&quot;&gt;是 CBOR 编码后再被 Base64 编码的，&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="480" y="1734" width="315" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-17" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-16" parent="1" source="tTCZcpSotxaGJvpE1IBw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-18" value="fmt" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="481" y="1788" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-19" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-18" parent="1" source="tTCZcpSotxaGJvpE1IBw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="1810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-20" value="attStmt" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="481" y="1840" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="tTCZcpSotxaGJvpE1IBw-20" source="tTCZcpSotxaGJvpE1IBw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1902" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-22" value="authData" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="480" y="2160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-23" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="tTCZcpSotxaGJvpE1IBw-22" source="tTCZcpSotxaGJvpE1IBw-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-26" value="标明证明的类型， 包括none, packed, android-safetynet, android-key, fido2-u3f, tpm" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="571" y="1780" width="620" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-26" parent="1" source="tTCZcpSotxaGJvpE1IBw-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1820" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-30" value="&lt;ul style=&quot;margin: 0px 0px 1.2em ; padding-left: 2em ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li style=&quot;line-height: 100%&quot;&gt;证明对象，具体格式根据&amp;nbsp;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;fmt&lt;/code&gt;&amp;nbsp;的不同会有所不同&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="620" y="1810" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-31" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-30" parent="1" source="tTCZcpSotxaGJvpE1IBw-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581" y="1870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-32" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;包含公钥、签名计数等来自认证器的数据&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="630" y="1880" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-33" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-32" parent="1" source="tTCZcpSotxaGJvpE1IBw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="1930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-34" value="rpIdHash" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="651" y="1918" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-35" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-34" parent="1" source="tTCZcpSotxaGJvpE1IBw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1960" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-36" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;SHA-256 的&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px ; text-align: left&quot;&gt;rpId&lt;/code&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="805" y="1910" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-37" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-36" parent="1" source="tTCZcpSotxaGJvpE1IBw-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761" y="1950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-38" value="flags" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="651" y="2030" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-39" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;" edge="1" target="tTCZcpSotxaGJvpE1IBw-38" parent="1" source="tTCZcpSotxaGJvpE1IBw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="2000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-40" value="标识认证状态， 长度1 字节，共八位" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="770" y="1948" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-41" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-40" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="1965" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-42" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;ED&lt;/code&gt;：是否有扩展数据&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="770" y="1968" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-43" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-42" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710.5" y="1960" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-44" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;AT&lt;/code&gt;：是否包含&amp;nbsp;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;attestedCredentialData&lt;/code&gt;。通常注册认证器时会包含&amp;nbsp;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;attestedCredentialData&lt;/code&gt;，而验证时不包含&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="770" y="2010" width="950" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-45" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-44" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="731" y="2010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-46" value="3个保留位" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="770" y="2060" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-47" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-46" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="697.5" y="2010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-48" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;UV&lt;/code&gt;：用户是否已验证&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="770" y="2090" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-49" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-48" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="723" y="2020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-50" value="保留位" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="780" y="2140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-51" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-50" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="2180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-52" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;UP&lt;/code&gt;：用户是否在场&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="785" y="2170" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-53" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-52" parent="1" source="tTCZcpSotxaGJvpE1IBw-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="2120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-54" value="Sign Count" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="651" y="2248" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-55" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-54" parent="1" source="tTCZcpSotxaGJvpE1IBw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="2290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-56" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;签名计数，长度 4 字节&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="795" y="2240" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-57" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-56" parent="1" source="tTCZcpSotxaGJvpE1IBw-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="2280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-58" value="&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;attestedCredentialData&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="640" y="2308" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-59" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-58" parent="1" source="tTCZcpSotxaGJvpE1IBw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="2350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-60" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;包含公钥等凭据数据，变长。&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="930" y="2270" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-61" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-60" parent="1" source="tTCZcpSotxaGJvpE1IBw-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="2328" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-62" value="&lt;span style=&quot;color: rgb(199 , 37 , 78) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 15px ; text-align: left ; background-color: rgb(247 , 247 , 249)&quot;&gt;aaguid，&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;认证器的 AAGUID (Authenticator Attestation GUID)，对于同一型号的认证器，它们的 AAGUID 是相同的&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="930" y="2298" width="840" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-63" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-62" parent="1" source="tTCZcpSotxaGJvpE1IBw-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="2338" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-64" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;credentialIdLength&lt;/code&gt;：标识&amp;nbsp;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;credentialId&lt;/code&gt;&amp;nbsp;的长度，长度 2 字节&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="930" y="2330" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-65" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-64" parent="1" source="tTCZcpSotxaGJvpE1IBw-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="2320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-66" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;credentialId&lt;/code&gt;：凭证 ID，和&amp;nbsp;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;rawId&lt;/code&gt;&amp;nbsp;一致，长度由&amp;nbsp;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;credentialIdLength&lt;/code&gt;&amp;nbsp;定义&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="930" y="2370" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-67" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-66" parent="1" source="tTCZcpSotxaGJvpE1IBw-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="2440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-68" value="&lt;ul style=&quot;margin: 0.8em 0px 0px ; padding-left: 2em ; list-style: circle ; color: rgba(0 , 0 , 0 , 0.87) ; font-family: , &amp;#34;noto sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;nimbus sans l&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;liberation sans&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;noto sans cjk sc&amp;#34; , &amp;#34;source han sans sc&amp;#34; , &amp;#34;source han sans cn&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;wenquanyi micro hei&amp;#34; , &amp;#34;wenquanyi zen hei&amp;#34; , &amp;#34;st heiti&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;wenquanyi zen hei sharp&amp;#34; , sans-serif ; font-size: 15px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;code style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 1em ; padding: 2px 6px ; color: rgb(199 , 37 , 78) ; background-color: rgb(247 , 247 , 249) ; border-radius: 2px&quot;&gt;credentialPublicKey&lt;/code&gt;：CBOR 编码的 COSE 格式的凭证公钥，变长&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="925" y="2420" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-69" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-68" parent="1" source="tTCZcpSotxaGJvpE1IBw-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="2318" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-70" value="entensions" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="1">
+          <mxGeometry x="646" y="2478" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-71" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="tTCZcpSotxaGJvpE1IBw-70" parent="1" source="tTCZcpSotxaGJvpE1IBw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="2520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-72" value="解码结构&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1210" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-73" value="检查AT标志，确认含有证明证书数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1270" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-74" value="校验auth data中依赖方编号哈希是否一致" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1330" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-75" value="通过flags 校验用户是否在场" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1390" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-76" value="若服务器要求用户验证， 则校验用户是否验证（通过flags)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1450" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tTCZcpSotxaGJvpE1IBw-78" value="根据证明类型， 处理证明对象, 验证签名是否正确" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="1500" width="450" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
